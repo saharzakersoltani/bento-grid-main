@@ -1,0 +1,60 @@
+/* 
+
+- Font sizes (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98 
+
+- SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 /96 / 128
+
+*/
+
+/* GENERAL */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62%;
+}
+
+body {
+  font-family: "DM Sans", sans-serif;
+  color: hsl(0, 0%, 7%);
+}
+
+.container {
+  width: 130rem;
+  margin: 0 auto;
+  padding: 6.4rem 0;
+}
+
+.grid-hole {
+  display: grid;
+  grid-template-columns: repeat(4, 30rem);
+  grid-template-rows: 40% 30% 20%;
+  row-gap: 3.2rem;
+  column-gap: 3.2rem;
+}
+
+.primary-heading {
+  color: hsl(0, 0%, 100%);
+  font-size: 7.4rem;
+  font-weight: 400;
+}
+
+.secondary-heading {
+  font-size: 4.4rem;
+  font-weight: 400;
+  letter-spacing: -0.1rem;
+  line-height: 0.95;
+}
+
+.par {
+  font-size: 2rem;
+}
+
+.border {
+  border-radius: 15px;
+}
